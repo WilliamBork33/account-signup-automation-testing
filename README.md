@@ -4,8 +4,7 @@ Automation Test Program for Creating an Account on https://mega.nz/
 
 - To run tests type:
     - `yarn test:web` (to run all tests together)
-    - `yarn test:web -t @login` (to run just login test)
-    - `yarn test:web -t @cars` (to run just cars test)
+    - `yarn test:web -t @create` (to run just create test)
 
 
 ## Known Issues
