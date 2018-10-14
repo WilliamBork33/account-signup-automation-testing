@@ -1,0 +1,16 @@
+{
+  "name": "account-signup-automation-testing",
+  "version": "1.0.0",
+  "scripts": {
+    "test:web": "yarn run chimp --watch"
+},
+  "main": "index.js",
+  "repository": "git@github.com:WilliamBork33/account-signup-automation-testing.git",
+  "author": "WilliamBork33 <williambork33@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "chimp": "^0.51.1"
+  }
+}
