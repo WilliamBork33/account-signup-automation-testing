@@ -1,7 +1,7 @@
 export class Page {
 
     constructor() {
-        this.url = 'https://www.phptravels.net/';
+        this.url = 'https://mega.nz/';
     }
 
     open(path) {
