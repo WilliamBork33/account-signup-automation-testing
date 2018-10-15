@@ -9,7 +9,7 @@ Automation Test Program for Creating an Account on https://mega.nz/
 
 ## Known Issues
 
-- Can't get the selector for "Create Account" button to submit the form. 
+- None. Next step is to script uploading a screenshot to the platform. 
 
 
 ### Self-Reminder For Starting This Project

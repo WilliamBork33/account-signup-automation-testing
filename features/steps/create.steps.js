@@ -14,15 +14,16 @@ module.exports =  function() {
         createPage.firstName.setValue('Ash');
         createPage.lastName.setValue('Ketchum');
         createPage.email.setValue('pokemontrainer@email.com');
-        createPage.password.setValue('Password');
-        createPage.retypePassword.setValue('Password');
+        createPage.password.setValue('password');
+        createPage.retypePassword.setValue('password');
         createPage.agreeTOS.click();
-        //createAccount.click();
+        createPage.createAccount.click();
       });
 
 
       this.Then(/^the account is created$/, function () {
         // Steps to Screenshot Newly Created Account
+        createPage.confirmEmail.waitForVisible();
         browser.saveScreenshot('screenshots/./snapshot.png');
       });
 
