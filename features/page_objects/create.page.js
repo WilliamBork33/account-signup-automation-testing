@@ -9,7 +9,9 @@ class CreatePage extends Page {
     get password ()     { return browser.element('#register-password-registerpage2'); }
     get retypePassword(){ return browser.element('#register-password-registerpage3'); }
     get agreeTOS()      { return browser.element('#register_form > div.account.checkbox-block.register > div.register-check.checkbox.checkboxOff'); }
-    get createAccount() { return browser.element('#div.big-red-button.height-48.register-button.right.active > i'); }
+    get createAccount() { return browser.element('#register_form > div.big-red-button.height-48.register-button.right.active'); }
+    get confirmEmail()  { return browser.element('#bodyel > div.fm-dialog.registration-success.registration-page-success.special'); }
+    
 
     // Method to Open & Maximize Screen
     open(maximized = false) {
